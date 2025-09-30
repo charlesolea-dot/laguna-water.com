@@ -1,0 +1,276 @@
+      body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f9ff;
+    }
+    header {
+      background: #42bdff;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      text-align: center;
+      
+    }
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #023e8a;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #0077b6;
+    }
+    .container {
+      padding: 20px;
+      color: #ffffff;
+    }
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/7/7d/Water_drop_001.jpg') no-repeat center center/cover;
+      color: white;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h2 {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+      color: #000000;
+    }
+    .card {
+      background:#42bdff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #023e8a;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    
+    }
+    video{
+        justify-content: center;
+        padding-left: 15%;
+    }
+    .back-to-top {
+    position: fixed;
+    background: rgba(11, 97, 235, 0.8) url(back-to-top.png) no-repeat center center / 100% 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    bottom: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    display: none;
+    z-index: 1000;
+    -webkit-transition: background-color 0.0s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+    scroll-behavior: smooth;
+    
+    }
+    .go-back {
+    position: fixed;
+    background: rgba(11, 97, 235, 0.8) url(go-back.png) no-repeat center center / 100% 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    bottom: 710px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    display: none;
+    z-index: 1000;
+    -webkit-transition: background-color 0.0s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+    scroll-behavior: smooth;
+    }
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 270px;
+    color: #000000;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fffffffa;
+    margin-top: 5px;
+    color: #000000;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #2c92e6;
+    border: 2px solid #fffffffa;
+    margin-top: 5px;
+    color: #000000;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.icon{
+    width: 80px;
+    float: left;
+    height: 70px;
+    margin-left: 540px;
+    margin-top: 80px;
+}
+.icons ion-icon{
+    color:#ffffff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 150px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #023e8a;
+}
+.logo{
+    color: #000000;
+    font-size: 20px;
+    padding-left: 135px;
+    padding-top: 10px;
+}
+.cn{
+    width: 160px;
+    height: 40px;
+    background: #2c92e6;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 127px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.cn a{
+    text-decoration: none;
+    color: #000000;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: #fff;
+}
+.image{
+    margin-left:12%;
+    margin-top: 1%;
+    width: 1120px;
+    height: 550px ;
+}
+p{
+  font-size: 25px;
+  font-weight: normal;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+#horizontal-line{
+width: 1470px;
+height: 5px;
+background-color:#356296fa;
+}
+ms{
+    color:#023e8a;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin-left: 630px;
+    margin-right: 40px;
+    text-align: center;
+    text-indent:50px
+}
+vs{
+    color:#023e8a;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin-left: 645px;
+    margin-right: 40px;
+    text-align: center;
+    text-indent:50px
+}
+cv{
+    color:#023e8a;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin-left: 580px;
+    margin-right: 40px;
+    text-align: center;
+    text-indent:50px
+}
+t{
+    color:#023e8a;
+    font-size: 33px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+    margin-left: 85px;
+    margin-right: 40;
+    text-indent:50px
+    
+}
+v{
+    color:#023e8a;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 40px;
+    text-indent:50px
+}
+w{
+    color:#023e8a;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+    margin-left: 570px;
+    margin-right: 40px;
+    text-indent:50px
+}
+.content{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    padding-left: 9%;
+}
+.member{
+    border-radius: 50%;
+    margin-left: 45%;
+}
+.imaget{
+  float: right;
+  padding-top: 1%;
+  margin-right: 12%;
+
+}
